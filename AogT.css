@@ -1,1 +1,135 @@
-Animation og Transition css
+body {
+    font-family: sans-serif;
+    background-color: black;
+    margin: 1em;
+    background-image: url("asd.jpg")
+}
+
+#mitgrid section {
+    color: transparent;
+    text-align: right;
+    border-color: white;
+    border-width: 2px;
+    border-style:
+}
+
+#mitgrid {
+    display: grid;
+    grid-template-columns:500fr 500fr 10fr;
+    grid-template-rows: 50fr 55fr 6fr 75fr 50fr 45fr 50fr;
+    grid-template-areas: 
+        
+        "e e"
+        "a a"
+        "j j"
+        "b c"
+        "d d"
+        "f g"
+        "h h"
+        "i i"
+        }
+
+h1 {
+    color: white;
+}
+
+#felt1 { 
+    background-color:transparent;
+    grid-area: a;
+    font-size: 1em;
+}
+
+#felt2 { 
+    background-color:transparent;
+    grid-area: b;
+    font-size: 2em;
+}
+
+#felt3 { 
+    background-color:transparent;
+    grid-area: c;
+    font-size: 2em;
+
+}
+
+#felt4 { 
+    background-color:transparent; grid-area: d;
+    font-size: 2em
+
+}
+
+#felt5 { 
+    background-color:transparent; grid-area: e;
+    font-size: 2em;
+    color:transparent;
+
+}
+
+#felt6 { 
+    background-color:transparent; grid-area: f;
+    font-size: 2em
+
+}
+
+#felt7 { 
+    background-color:transparent; grid-area: g;
+    font-size: 2em
+
+}
+
+#felt8 { 
+    background-color:transparent; grid-area: h;
+    font-size: 2em
+
+}
+
+#felt9 { 
+    background-color:transparent; grid-area: i;
+    font-size: 2em
+
+}
+
+#felt10 { 
+    background-color:transparent; grid-area: j;
+    font-size: 2em
+
+}
+    
+
+#playbutton {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 0.5s;
+    margin:auto;
+}
+
+#playbutton:hover {
+  width: 300px;
+}
+    
+#Animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: sticky;
+  -webkit-animation-name: blabal;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}    
+
+
+section p {color: white;
+font-family: cursive;
+font-size: 0.9em;}
